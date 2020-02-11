@@ -1,0 +1,571 @@
+body {
+    font-family:'Roboto Mono';
+    font-size:12px;
+    width: 98vw;
+    height: 1000vh;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: magenta;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: silver; 
+  }
+
+.cursor {
+    cursor: ns-resize;
+}
+
+.first {
+    position: absolute;
+    top: 500px;
+}
+
+.second {
+    position: absolute;
+    top: 975px;
+    left: 1000px;
+}
+
+#no-padding {
+    padding: 0;
+}
+
+.magenta1 {
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,0,255,1) 25%, rgba(255,0,255,1) 75%, rgba(255,255,255,0) 100%);
+}
+
+.magenta2 {
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 250vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,0,255,1) 25%, rgba(255,0,255,1) 75%, rgba(255,255,255,0) 100%);
+}
+
+.left {
+    position: absolute;
+    margin-top:450px;
+    margin-left:50px;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.five1 {
+    position: absolute;
+    transform: rotate(-30deg);
+    left: 200px;
+    top: 100px;
+}
+
+.five2 {
+    position: absolute;
+    transform: rotate(30deg);
+    left: 200px;
+    top: 500px;
+}
+
+.five3 {
+    position: absolute;
+    transform: rotate(0deg);
+    left: 500px;
+    top: 300px;
+}
+
+.five4 {
+    position: absolute;
+    transform: rotate(50deg);
+    left: 500px;
+    top: 500px;
+}
+
+.five5 {
+    position: absolute;
+    transform: rotate(-50deg);
+    left: 600px;
+    top: 300px;
+}
+
+.five6 {
+    position: absolute;
+    transform: rotate(20deg);
+    left: 500px;
+    top: 500px;
+}
+
+.center {
+    /* border: solid black; */
+    position: absolute;
+    width: 230px;
+    left: calc(50% - 115px);
+    top: 50%;
+}
+
+.middle-right {
+    /* border: solid black; */
+    position: absolute;
+    width: 130px;
+    right: 0;
+    top: 50%;
+}
+
+.middle-bottom {
+    position: absolute;
+    width: 230px;
+    left: calc(50% - 115px);
+    bottom: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    width: 130px;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+.magenta {
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.magenta-fill {
+    fill:magenta;
+}
+
+.endless {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 400px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless2 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 350px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless3 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless4 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 250px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless5 {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless6 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 150px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless7 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless8 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless9 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 0px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.endless10 {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -50px;
+    color: magenta;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+textPath:hover {
+    color: white;
+}
+
+.magenta:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless2:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless3:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless4:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless5:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless6:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless7:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless8:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless9:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.endless10:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.right {
+    margin-left: 800px;
+    position: absolute;
+    width: 150px;
+    text-align: right;
+    margin-top: 250px;
+}
+
+.death {
+    position: absolute;
+    color: magenta;
+    margin-left: 800px;
+    margin-top: 300px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death2 {
+    position: absolute;
+    color: magenta;
+    margin-left: 750px;
+    margin-top: 350px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death3 {
+    position: absolute;
+    color: magenta;
+    margin-left: 700px;
+    margin-top: 400px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death4 {
+    position: absolute;
+    color: magenta;
+    margin-left: 650px;
+    margin-top: 450px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death5 {
+    position: absolute;
+    color: magenta;
+    margin-left: 600px;
+    margin-top: 500px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death6 {
+    position: absolute;
+    color: magenta;
+    margin-left: 550px;
+    margin-top: 550px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death7 {
+    position: absolute;
+    color: magenta;
+    margin-left: 500px;
+    margin-top: 600px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death8 {
+    position: absolute;
+    color: magenta;
+    margin-left: 450px;
+    margin-top: 650px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death9 {
+    position: absolute;
+    color: magenta;
+    margin-left: 400px;
+    margin-top: 700px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death10 {
+    position: absolute;
+    color: magenta;
+    margin-left: 350px;
+    margin-top: 750px;
+    width: 180px;
+    height: 90px;
+    padding: 14px;
+}
+
+.death:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death2:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death3:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death4:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death5:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death6:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death7:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death8:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death9:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.death10:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+path {
+    fill: none;
+    stroke: none;
+}
+
+svg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#magenta-bg {
+    background-color: magenta;
+}
+
+.padding {
+    padding: 50px;
+}
+
+#black-bg {
+    background-color: black;
+}
+
+.text {
+    line-height: 30px;
+    position: absolute;
+}
+
+#endless {
+    left: 300px;
+}
+
+#room {
+    left: 600px;
+}
+
+#time {
+    left: 900px;
+}
+
+#rail {
+    left: 1200px;
+}
+
+.knowledge {
+    top: 350px;
+    left: calc(50% - 230px);
+    width: 460px;
+    position: absolute;
+    color: magenta;
+    /* border: solid black 1pt; */
+}
+
+.knowledge:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.end {
+    top: 350px;
+    left: calc(50% - 230px);
+    width: 460px;
+    position: absolute;
+    color: black;
+    /* border: solid black 1pt; */
+}
+
+.end:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
+#one {
+    transform: rotate(0deg);
+}
+
+#two {
+    transform: rotate(11.25deg);
+}
+
+#three {
+    transform: rotate(22.5deg);
+}
+
+#four {
+    transform: rotate(33.75deg);
+}
+
+#five {
+    transform: rotate(45deg);
+}
+
+#six {
+    transform: rotate(0deg);
+}
+
+#seven {
+    transform: rotate(-11.25deg);
+}
+
+#eight {
+    transform: rotate(-22.5deg);
+}
+
+#nine {
+    transform: rotate(-33.75deg);
+}
+
+#ten {
+    transform: rotate(-45deg);
+}
