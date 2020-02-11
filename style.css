@@ -6,6 +6,7 @@ body {
     top: 0;
     left: 0;
     overflow-x: hidden;
+    background-color: white;
 }
 
 /* width */
@@ -36,13 +37,57 @@ body {
 .first {
     position: absolute;
     top: 500px;
+    left: 50px;
+    transform: scale(0.75);
 }
 
 .second {
     position: absolute;
-    top: 975px;
-    left: 1000px;
+    top: 1150px;
+    left: 800px;
+    transform: rotateY(45deg) rotateX(45deg) scale(0.75);
 }
+
+.third {
+    position: absolute;
+    top: 1500px;
+    left: 600px;
+    transform: rotateY(30deg) rotateX(-60deg) scale(0.75);
+}
+
+.fourth {
+    position: absolute;
+    top: 1800px;
+    left: 900px;
+    transform: rotateY(25deg) rotateX(30deg) scale(0.75);
+}
+
+.fifth {
+    z-index: -2;
+    position: absolute;
+    top: 1800px;
+    left: 25px;
+    width: 96vw;
+    transform: scale(0.75);
+}
+
+.sixth {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    transform: scale(0.75);
+}
+
+.seventh {
+    font-size: 9px;
+}
+
+/* .eighth {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    transform: scale(0.75);
+} */
 
 #no-padding {
     padding: 0;
@@ -60,11 +105,23 @@ body {
 }
 
 .magenta2 {
+    z-index: -1;
     width: 100vw;
     height: 800px;
     position: absolute;
     left: 0;
     top: 250vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,0,255,1) 25%, rgba(255,0,255,1) 75%, rgba(255,255,255,0) 100%);
+}
+
+.magenta3 {
+    z-index: -1;
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: -50vh;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,0,255,1) 25%, rgba(255,0,255,1) 75%, rgba(255,255,255,0) 100%);
 }
@@ -76,9 +133,14 @@ body {
 }
 
 .top-left {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    color: magenta;
+}
+
+.top-left:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
 }
 
 .five1 {
@@ -86,6 +148,7 @@ body {
     transform: rotate(-30deg);
     left: 200px;
     top: 100px;
+    font-size: 9px;
 }
 
 .five2 {
@@ -93,6 +156,7 @@ body {
     transform: rotate(30deg);
     left: 200px;
     top: 500px;
+    font-size: 9px;
 }
 
 .five3 {
@@ -100,13 +164,15 @@ body {
     transform: rotate(0deg);
     left: 500px;
     top: 300px;
+    font-size: 9px;
 }
 
 .five4 {
     position: absolute;
     transform: rotate(50deg);
-    left: 500px;
-    top: 500px;
+    left: 450px;
+    top: 450px;
+    font-size: 9px;
 }
 
 .five5 {
@@ -114,6 +180,7 @@ body {
     transform: rotate(-50deg);
     left: 600px;
     top: 300px;
+    font-size: 9px;
 }
 
 .five6 {
@@ -121,37 +188,65 @@ body {
     transform: rotate(20deg);
     left: 500px;
     top: 500px;
+    font-size: 9px;
+}
+
+.five7 {
+    position: absolute;
+    /* transform: rotate(20deg); */
+    left: 800px;
+    top: 450px;
+    font-size: 9px;
 }
 
 .center {
     /* border: solid black; */
-    position: absolute;
-    width: 230px;
-    left: calc(50% - 115px);
+    position: fixed;
+    width: 168px;
+    left: calc(50% - 84px);
     top: 50%;
+    color: magenta;
+}
+
+.center:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
 }
 
 .middle-right {
     /* border: solid black; */
-    position: absolute;
-    width: 130px;
+    position: fixed;
+    width: 98px;
     right: 0;
     top: 50%;
+    color: magenta;
+}
+
+.middle-right:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
 }
 
 .middle-bottom {
-    position: absolute;
-    width: 230px;
-    left: calc(50% - 115px);
+    position: fixed;
+    width: 168px;
+    left: calc(50% - 84px);
     bottom: 0;
+    color: magenta;
+}
+.middle-bottom:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
 }
 
 .bottom-right {
-    position: absolute;
-    width: 130px;
+    position: fixed;
+    width: 98px;
     right: 0;
     bottom: 0;
-    text-align: right;
+    /* text-align: right; */
+    color: magenta;
+}
+
+.bottom-right:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
 }
 
 .magenta {
@@ -164,6 +259,11 @@ body {
 .magenta-fill {
     fill:magenta;
 }
+
+.magenta-fill:hover {
+    text-shadow: 0px 0px 5px white, 0px 0px 5px white;
+}
+
 
 .endless {
     position: absolute;
@@ -527,9 +627,9 @@ svg {
     /* border: solid black 1pt; */
 }
 
-.end:hover {
+/* .end:hover {
     text-shadow: 0px 0px 5px white, 0px 0px 5px white;
-}
+} */
 
 #one {
     transform: rotate(0deg);
