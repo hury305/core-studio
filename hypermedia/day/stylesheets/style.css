@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+}
+
+.icon {
+    position: absolute;
+    z-index: 1;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+#home {
+    left: 1360px;
+    top: 25px;
+    width: 50px;
+}
+
+.secret {
+    width: 120px;
+    height: 580px;
+    position: absolute;
+    left: 1310px;
+    top: 65px;
+    z-index: 1;
+    cursor: default;
+}
+
+#arrow-down {
+    left: 660px;
+    bottom: 50px;
+    width: 120px;
+}
+
+#arrow-right {
+    left: 1250px;
+    bottom: 200px;
+    width: 120px;
+}
+
+.audio {
+    width: 10px;
+    left: 320px;
+    top: 200px;
+    position: absolute;
+    opacity: 0;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1440px;
+}
+
+.sun {
+    position: absolute;
+    width: 170px;
+    top: 40px;
+    left: 936px;
+}
+
+.sun:hover {
+    opacity: 0.5;
+}
+
+.cage {
+    position: absolute;
+    width: 140px;
+    top: 0;
+    left: 280px;
+}

@@ -22,12 +22,15 @@ body {
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: magenta;
-    border-radius: 5px;
+    border-radius: 2.5px;
+    padding: 10px;
+	background-clip: padding-box;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: silver; 
+    background: magenta;
+    opacity: 0.75;
   }
 
 .cursor {
@@ -259,8 +262,8 @@ body {
 
 .middle-bottom {
     position: fixed;
-    width: 168px;
-    left: calc(50% - 84px);
+    width: 146px;
+    left: calc(50% - 73px);
     bottom: 0;
     color: magenta;
 }
@@ -273,7 +276,7 @@ body {
     width: 98px;
     right: 0;
     bottom: 0;
-    /* text-align: right; */
+    text-align: right;
     color: magenta;
 }
 

@@ -1,0 +1,212 @@
+body {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    color: white;
+}
+
+.audio {
+    width: 10px;
+    opacity: 0;
+    position: absolute;
+    left: 1200px;
+    top: 160px;
+}
+
+.secret {
+    width: 120px;
+    height: 580px;
+    position: absolute;
+    left: 1310px;
+    top: 65px;
+    cursor: default;
+}
+
+.icon {
+    position: absolute;
+    z-index: 1;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.invisible {
+    position: absolute;
+    background-color: none;
+    width: 200px;
+    height: 550px;
+    left: 290px;
+    top: 120px;
+}
+
+.lv1 {
+    position: absolute;
+    background-color: none;
+    width: 100px;
+    height: 180px;
+    left: 700px;
+    top: 570px;
+}
+
+.lv2 {
+    position: absolute;
+    background-color: none;
+    width: 500px;
+    height: 300px;
+    left: 0px;
+    top: 460px;
+}
+
+.lv3 {
+    position: absolute;
+    background-color: none;
+    width: 270px;
+    height: 210;
+    left: 230px;
+    top: 250px;
+}
+
+.lv4 {
+    position: absolute;
+    background-color: none;
+    width: 80px;
+    height: 210px;
+    left: 0px;
+    top: 250px;
+}
+
+.static {
+    position: absolute;
+    width: 180px;
+    left: 460px;
+    top: 270;
+    z-index: -2;
+}
+
+.statue {
+    position: absolute;
+    left: 31.5px;
+    top: 257px;
+    width: 452px;
+    opacity: 0;
+}
+
+.statue:hover {
+    opacity: 1;
+}
+
+.picture {
+    position: absolute;
+    left: 487px;
+    top: 92px;
+    width: 135px;
+    opacity: 0;
+}
+
+.picture:hover {
+    opacity: 1;
+    cursor: hand;
+}
+
+.closet {
+    position: absolute;
+    left: 0;
+    top: 105px;
+    width: 385px;
+    opacity: 0;
+    cursor: hand;
+}
+
+.closet:hover {
+    opacity: 1;
+}
+
+.bird-bed {
+    position: absolute;
+    left: 437px;
+    top: 425px;
+    width: 298px;
+    opacity: 0;
+}
+
+.bird-bed:hover {
+    opacity: 1;
+    cursor: hand;
+}
+
+#living-room {
+    top: -10px;
+}
+
+.scissors {
+    position: absolute;
+    left: 713.25px;
+    top: 529.2px;
+    width: 115.5px;
+    opacity: 0;
+}
+
+.scissors:hover {
+    opacity: 1;
+}
+
+.closet-1 {
+    position: absolute;
+    width: 330px;
+    left: 1110px;
+    top: 147px;
+    opacity: 0;
+}
+
+.closet-1:hover {
+    opacity: 1;
+    cursor: hand;
+}
+
+#home {
+    left: 1360px;
+    top: 25px;
+    width: 50px;
+}
+
+#arrow-down {
+    left: 660px;
+    bottom: 50px;
+    width: 120px;
+}
+
+#arrow-right {
+    left: 1250px;
+    bottom: 200px;
+    width: 120px;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1440px;
+    z-index: -1;
+}
+
+.moon {
+    position: absolute;
+    width: 82px;
+    top: 80px;
+    left: 975px;
+}
+
+.moon:hover {
+    opacity: 0.5;
+}
+
+.cage {
+    position: absolute;
+    width: 140px;
+    top: 0;
+    left: 280px;
+}
