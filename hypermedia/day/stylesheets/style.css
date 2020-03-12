@@ -41,10 +41,10 @@ body {
 
 .audio {
     width: 10px;
-    left: 320px;
-    top: 200px;
+    left: 1300px;
+    top: 35px;
     position: absolute;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .bg {
