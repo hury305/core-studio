@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Akzidenz;
+    src: url(fonts/AkzidenzGroteskStd-BoldEx.otf);
+}
+
+#bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+#div {
+    position: absolute;
+    top: -10vw;
+    left: -10vw;
+    width: 100vw;
+}
+
+body {
+    background-color: rgb(215, 225, 235);
+    font-family: Akzidenz;
+    color: transparent;
+    font-size: 16pt;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    overflow: hidden;
+}
+
+.text {
+    font-family: Akzidenz;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 250px;
+    /* border: solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+    z-index: -1;
+}
+
+.back {
+    margin: 25px;
+    position: absolute;
+    /* font-family: Akzidenz;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+}
+
+.back:hover {
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    color: transparent;
+}
+
+.detail {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-text-stroke-width: 0px;
+    color: black;
+}
+
+.spec {
+    width: 500px;
+    left: 700px;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img {
+    position: absolute;
+    width: 300px;
+}
+
+#iphone5 {
+    height: 300px;
+    width: auto;
+}
+
+#powerstrip2 {
+    height: 300px;
+    width: auto;
+}
+
+#powerstrip3 {
+    height: 300px;
+    width: auto;
+}
+
+#laptop2 {
+    height: 300px;
+    width: auto;
+}
+
+.img:hover {
+    opacity: 0.5;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(180deg) brightness(95%) contrast(80%);
+
+}
