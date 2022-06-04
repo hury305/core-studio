@@ -33,6 +33,7 @@ body {
     left: 1300px;
     top: 35px;
     position: absolute;
+    display: none;
     /* opacity: 0; */
 }
 
